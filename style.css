@@ -1,0 +1,389 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    /* Prevent scrollbars caused by video overflow */
+  }
+
+#hero-bg{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    z-index: -1; 
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 
+#geo-1-part2 img:hover{
+  transform: scale(1.08);
+  transition: 0.7s ease;
+  overflow: hidden;
+} */
+
+
+
+#contact-btn{
+  padding: 10px 15px;
+  border: 1px;
+}
+
+
+
+
+
+#layout, #partner, #awards, #profile, #cards, #form{
+  margin-bottom: 100px;
+}
+
+#layout{
+  margin-top: 100px;
+}
+
+#card-container a img{
+  width: 100%;
+  height: 300px;
+}
+
+.border-underline{
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.hover-underline{
+  text-decoration: none;
+}
+
+.hover-underline:hover{
+  text-decoration: underline;
+}
+
+/*  */
+/*  */
+
+
+#hero-margin{
+  height: 94vh;
+}
+/* mx-sm-5 px-sm-5 my-5 py-5   */
+
+
+/* 
+#hero{
+  margin: auto;
+} */
+
+.text-monospace{
+  font-size: 4rem;
+}
+
+#geo-prime-section button:hover .icon, #about button:hover .icon{
+  transform: translateX(8px);
+  transition: 0.3s ease;
+}
+
+#bg-img{
+  height: 100%;
+  width: 100%;
+  /* position: relative; */
+  /* top: 0;
+  left: 0; */
+  z-index: -1;
+}
+
+#cards-btn:hover{
+  background-color: #fff;
+  color: rgb(0,57,36);
+  border: 1px solid rgb(0,57,36);
+}
+
+#cards-btn{
+  border: none;
+  color: #fff;
+  background-color: rgb(0,57,36);
+}
+
+#footer{
+  background-color: rgb(0,57,36);
+}
+
+#profile-heading{
+  color: rgb(0,90,64);
+}
+
+/* #partner-img{
+  height: 6rem;
+  width: 10rem;
+} */
+
+#partner img, #awards img{
+  padding: 0;
+  width: 6rem;
+}
+
+
+#profile img{
+  width: 12rem;
+  height: 10rem;
+}
+
+
+
+/* #impact-img{
+  padding: 0;
+  z-index:-1; 
+  opacity: 1.5; 
+  filter: brightness(70%);
+}  */
+
+  /* #hero{
+    height: 100%;
+    width: 100%;
+  } */
+
+  /* #mission-section{
+    min-width: 500rem;
+  } */
+
+  
+
+  
+
+
+
+.card img{
+  height: 100%;
+  width: 100%;
+  border-radius: none;
+  overflow: hidden;
+  opacity: 0.6;
+}
+.card:hover img {
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+  transition: transform 0.5s ease; /* Adjust the transition duration and timing function as needed */
+  opacity: 0.4;
+}
+.card{
+  border-style: none;
+  border-radius: none;
+  height: 380px;
+  overflow: hidden;
+}
+
+.card button{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  color: #fff;
+}
+
+#card-btn{
+  margin-top: 170px;
+}
+
+
+
+
+/*  */
+
+nav{
+  width: 100%;
+  height: 100px;
+}
+
+
+
+#nav-item-1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15vh;
+  display: none;
+}
+
+#nav-geo-part2{
+  padding: 30px;
+}
+
+#geo-part2-link{
+  height: 250px;
+  width: 100%;
+  background-color: #e6e6e6;
+  overflow: hidden;
+  /* margin: 0rem; */
+}
+
+#nav-geo-para{
+  overflow: hidden;
+}
+
+/* 
+#nav-geo-img{
+  width: 100%;
+} */
+
+#nav-geo-img:hover{
+  transform: scale(1.08);
+  transition: 0.7s ease;
+}
+
+
+#nav-item-2{
+  margin-top: 15vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 450px;
+  /* overflow: hidden; */
+}
+
+
+#nav-service-img1 img{
+  height: 13rem;
+}
+
+#nav2-card1, #nav2-card2, #nav2-card3, #nav2-card4{
+  background-color: #e6e6e6;
+  margin: 7px;
+  min-width: 300px;
+}
+
+
+#nav-item-3{
+  background-color: #fff;
+  margin-top: 15vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#nav-item-4{
+  background-color: #fff;
+  margin-top: 15vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#company-part2-link{
+  margin: 30px 35px;
+  /* padding-left: 20px; */
+  height: 250px;
+  /* width: 100%; */
+  background-color: #e6e6e6;
+  overflow: hidden;
+  /* margin: 0rem; */
+}
+
+#company-part2-textarea{
+  width: 500px;
+  height: auto;
+  align-items: center;
+ 
+}
+
+#nav-company-para1{
+  color: rgb(0,57,36);
+}
+
+#nav-company-para2{
+  font-size: 14px;
+  
+}
+
+
+
+#nav-item-5{
+  background-color: #ffffff;
+  margin-top: 100px;
+  height: 500px;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#nav-investor-card{
+  background-color: #e6e6e6;
+  padding: 0;
+}
+
+#nav-investor-card-text{
+  font-size: 14px;
+}
+
+
+/* 
+#fixedTop{
+  top: fixed;
+  transition: 3s ease;
+}
+ */
+
+
+.navbar-transition {
+  transition: transform 0.2s ease-in-out; /* Adjust the transition duration and timing function as needed */
+}
+
+.navbar-up {
+  transform: translateY(-100%);
+}
+
+.navbar-down {
+  transform: translateY(0);
+}
+
+
+#smaller-screen-nav{
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  background-color: #e91010;
+  /* z-index: 999; */
+}
+
+
+#scrollable{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+
+
